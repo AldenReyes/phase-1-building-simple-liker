@@ -17,7 +17,6 @@ document.querySelectorAll(".like-glyph").forEach((heart) => {
 // Handler Functions
 function changeHeart(event) {
   const likeGlyph = event.target;
-  console.log(likeGlyph);
   if (likeGlyph.textContent === EMPTY_HEART) {
     likeGlyph.textContent = FULL_HEART;
     likeGlyph.classList.add("activated-heart");
